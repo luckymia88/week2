@@ -1,0 +1,36 @@
+.aboutme {
+  background: #ffffff;
+  color: $color-secondary;
+  padding: 160px 0;
+  .about {
+    justify-content: space-between;
+    .about-card {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 636px;
+      li {
+        width: 306px;
+        padding: 16px;
+        border: 1px solid #e3e3e3;
+      }
+    }
+    .about-text {
+      width: 526px;
+      h2 {
+        font-size: $font-2xl;
+        color: $color-main;
+      }
+      p {
+        font-size: $font-m;
+      }
+    }
+  }
+}
+
+.about-card {
+  li {
+    h3 {
+      font-size: $font-s;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.contact {
+  background-image: linear-gradient(180deg, #050014 0%, #01021e 100%);
+  padding: 96px 0;
+  .contactme {
+    justify-content: space-between;
+    align-items: center;
+    .contact-text {
+      h2 {
+        font-size: $font-2xl;
+      }
+    }
+  }
+}

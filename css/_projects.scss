@@ -1,0 +1,52 @@
+.myproject {
+  background: #ffffff;
+  color: $color-secondary;
+  padding: 160px 0;
+  h2 {
+    font-size: $font-2xl;
+    color: $color-main;
+    padding-left: 580px;
+  }
+  .project {
+    justify-content: space-between;
+    .project-img {
+      width: 416px;
+      height: 530px;
+    }
+    .project-box {
+      width: 856px;
+    }
+  }
+}
+
+.project-text {
+  justify-content: space-between;
+  .text-img {
+    width: 196px;
+    height: 196px;
+  }
+  .text {
+    width: 636px;
+    a {
+      background: #000;
+      display: block;
+      color: #fff;
+      padding: 12px 24px;
+      width: 190px;
+      border-radius: 32px;
+      text-align: center;
+      &:hover {
+        background: #000000b2;
+      }
+      p {
+        display: inline;
+        width: 109px;
+      }
+      img {
+        display: inline;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
